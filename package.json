@@ -2,7 +2,7 @@
   "name": "hubot-aws-facedetect",
   "version": "0.0.1",
   "description": "Detect faces using AWS Rekognition",
-  "main": "index.js",
+  "main": "index.coffee",
   "repository": {
     "type": "git",
     "url": "https://github.com/neufeldtech/hubot-aws-facedetect.git"
