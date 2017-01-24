@@ -1,11 +1,18 @@
 {
   "name": "hubot-aws-facedetect",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.0.1",
+  "description": "Detect faces using AWS Rekognition",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/neufeldtech/hubot-aws-facedetect.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Jordan Neufeld <myjc.niv@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.7.27"
+  }
 }
